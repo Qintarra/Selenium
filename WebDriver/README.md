@@ -12,3 +12,8 @@ Send an email:
 - Create a simple mail
 - Send this mail to another test user
 - Use at least 4 types of locators on this task
+
+### 03-GithubNewRepo
+Must contain 2 tests:
+1. Creating a testrepo with random postfix length and a description
+2. Check if the user can log in to the github
