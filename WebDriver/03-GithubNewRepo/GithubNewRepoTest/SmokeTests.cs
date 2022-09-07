@@ -6,8 +6,8 @@ namespace github_auto
     public class SmokeTests
     {
         private readonly Steps steps = new Steps();
-        private const string USERNAME = "YourUsername"; //placeholder, enter your github username
-        private const string PASSWORD = "ChangeMe"; //placeholder, enter your github password
+        private const string USERNAME = "YourUsername"; // placeholder, enter your github username
+        private const string PASSWORD = "ChangeMe"; // placeholder, enter your github password
         private const int REPOSITORY_RANDOM_POSTFIX_LENGTH = 6;
 
         [SetUp]
