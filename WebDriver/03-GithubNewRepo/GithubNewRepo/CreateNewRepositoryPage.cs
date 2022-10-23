@@ -33,8 +33,8 @@ namespace GitHubAutomation.Pages
         {
             InputRepositoryName.SendKeys(repositoryName);
             InputRepositoryDescription.SendKeys(repositoryDescription);
-
-            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
+         
+            Thread.Sleep(2000);
             ButttonCreate.Click();
 
             Thread.Sleep(5000); // Can be removed. Just to look at the successfully created repo
