@@ -34,7 +34,7 @@ namespace GitHubAutomation.Pages
             InputRepositoryName.SendKeys(repositoryName);
             InputRepositoryDescription.SendKeys(repositoryDescription);
 
-            Thread.Sleep(2000);
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
             ButttonCreate.Click();
 
             Thread.Sleep(5000); // Can be removed. Just to look at the successfully created repo
